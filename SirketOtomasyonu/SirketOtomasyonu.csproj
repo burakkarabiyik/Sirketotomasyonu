@@ -46,14 +46,155 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Anlasmaekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anlasmaekle.Designer.cs">
+      <DependentUpon>Anlasmaekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalisanDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalisanDetay.Designer.cs">
+      <DependentUpon>CalisanDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalisanProfili.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalisanProfili.Designer.cs">
+      <DependentUpon>CalisanProfili.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Katilacaklarım.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Katilacaklarım.Designer.cs">
+      <DependentUpon>Katilacaklarım.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kayit.Designer.cs">
+      <DependentUpon>kayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maas.Designer.cs">
+      <DependentUpon>Maas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MusteriProfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MusteriProfil.Designer.cs">
+      <DependentUpon>MusteriProfil.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Oneri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Oneri.Designer.cs">
+      <DependentUpon>Oneri.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SatınAlınanUrunler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SatınAlınanUrunler.Designer.cs">
+      <DependentUpon>SatınAlınanUrunler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sifre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sifre.Designer.cs">
+      <DependentUpon>Sifre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SirketBilgisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SirketBilgisi.Designer.cs">
+      <DependentUpon>SirketBilgisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sirketler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sirketler.Designer.cs">
+      <DependentUpon>Sirketler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sorun Ekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sorun Ekle.Designer.cs">
+      <DependentUpon>Sorun Ekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sorun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sorun.Designer.cs">
+      <DependentUpon>Sorun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToplantiEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToplantiEkle.Designer.cs">
+      <DependentUpon>ToplantiEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Toplantılar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Toplantılar.Designer.cs">
+      <DependentUpon>Toplantılar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Urun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Urun.Designer.cs">
+      <DependentUpon>Urun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UrunDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UrunDetay.Designer.cs">
+      <DependentUpon>UrunDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YeniCalisan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YeniCalisan.Designer.cs">
+      <DependentUpon>YeniCalisan.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Anlasmaekle.resx">
+      <DependentUpon>Anlasmaekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalisanDetay.resx">
+      <DependentUpon>CalisanDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalisanProfili.resx">
+      <DependentUpon>CalisanProfili.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Katilacaklarım.resx">
+      <DependentUpon>Katilacaklarım.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kayit.resx">
+      <DependentUpon>kayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maas.resx">
+      <DependentUpon>Maas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MusteriProfil.resx">
+      <DependentUpon>MusteriProfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oneri.resx">
+      <DependentUpon>Oneri.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,7 +203,41 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SatınAlınanUrunler.resx">
+      <DependentUpon>SatınAlınanUrunler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sifre.resx">
+      <DependentUpon>Sifre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SirketBilgisi.resx">
+      <DependentUpon>SirketBilgisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sirketler.resx">
+      <DependentUpon>Sirketler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sorun Ekle.resx">
+      <DependentUpon>Sorun Ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sorun.resx">
+      <DependentUpon>Sorun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToplantiEkle.resx">
+      <DependentUpon>ToplantiEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Toplantılar.resx">
+      <DependentUpon>Toplantılar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Urun.resx">
+      <DependentUpon>Urun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UrunDetay.resx">
+      <DependentUpon>UrunDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YeniCalisan.resx">
+      <DependentUpon>YeniCalisan.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -75,6 +250,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\ok.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
